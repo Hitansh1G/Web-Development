@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+    <div>
+        <table>
+            <!-- tr = table room -->
+            <!-- th = table headers -->
+            <!-- td = table data -->
+            <!-- table header daalne pr vo highlight ho jayega -->
+            <caption>this table shows the max scores of the players</caption>
+            <!-- the role of thead and tbody is essential , normally kuch
+            different dekhne ko nhi milega ..but while doing css isse hm seedha colour vahgara
+            change kr skte ha  -->
+            <thead>
+                <tr>
+                    <th>serial no </th>
+                    <th>player name</th>
+                    <th>max score</th>
+                    <th>game</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>hitansh </td>
+                    <td>100</td>
+                    <td>cricket</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>virat </td>
+                    <td>999</td>
+                    <td>cricket</td>
+
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>rohit </td>
+                    <td>9999</td>
+                    <td>cricket</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <!-- colspan ka use ha agr hme same heading ke neeche
+                subheadings chaiye ho toh  -->
+                <th>serial no </th>
+                <th colspan="3">players</th>
+
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>indian </td>
+                <td>australian</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
