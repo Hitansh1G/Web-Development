@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+.FLAG{
+    border: 0pc;
+    background:black;
+    height: 344px;
+    /* this will add a height to your para  */
+    color: yellow;
+}
+.flag1{
+    background-color: black;
+    color: white;
+
+
+}
