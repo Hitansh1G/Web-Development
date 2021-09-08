@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- first way to add css to html -->
+    <style>
+        #first{
+            /* hmne id=first , ek element bana tha toh seedha #first krke style mei call kr skte ha */
+            background-color: aqua;
+        }
+        .flag{
+            /* .red is element of a class, toh jis jis class mei red naam ka element hoga usme change hoga  */
+            background-color: brown;
+            color: white;
+            /* color means to change the text colour  */
+        }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="style1.css">
+    <!-- id means kisi ka unique identifier
+    ek se zada element ko aap class de skte ho aur ek element ko ek se zada class de skte ha -->
+    <div id="first">
+        <!-- shortcut is #first  -->
+        first
+    </div>
+    <!-- yaha mei ek aur id = first ka element nhi bana skta -->
+    <div id="Second"> 
+        second
+    </div>
+    <!-- similarly yaha bhi ej aur id = second ka element nhi bana skte -->
+    <section class="flag ">
+        third
+    </section>
+    <section class="flag pen">
+        forth
+    </section>
+    <!-- iska shortcut is section.red
+                          section.red.blue -->
+    <!-- here red is an element 
+    toh by this example we can say that ek element ko mutiple class mei daal skte ha 
+aur ek class mei multiple elements daal skte ha  -->
+</body>
+</html>
+<!-- second way to call css in html is through spread sheet  , yaha pr link likhkr enter krna ha
+and fir ek file banani ha css ki and usme call krna ha 
+element ko call krna #element se and class ki element ko krna ha .element se  -->
