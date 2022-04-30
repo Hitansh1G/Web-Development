@@ -1,0 +1,19 @@
+p{
+    size: 90px;
+    content: icon;
+    color: blueviolet;
+    text-transform: initial;
+}
+li{
+    color: brown;
+    size: 55px;
+}
+ul{
+    size: 90px;
+}
+.upperman{
+    color: coral;
+}
+.lala{
+    text-transform: uppercase;
+}
