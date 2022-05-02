@@ -5,4 +5,14 @@
     border-width: 20px;
     border-color: black;
     border-style: solid;
+    border-radius: 80px;
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color:darkgoldenrod;
+    border-radius: 100px;
+    position: center;
+    border-width: 20px;
+    border-color: darkslategray;
 }
