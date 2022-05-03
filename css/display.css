@@ -1,0 +1,18 @@
+#div1{
+    background-color: rgb(236, 45, 45);
+    height: 200px;
+    width: 200px;
+    /* margin: 40px;
+    padding: auto; */
+}
+#div2{
+    background-color: rgb(68, 68, 206);
+    height: 200px;
+    width: 200px;
+}
+span{
+    display: block;
+}
+div{
+    display: inline-block;
+}
