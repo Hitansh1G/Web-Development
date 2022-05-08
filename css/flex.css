@@ -1,9 +1,10 @@
 #container{
-    height: 150vh;
-    width: 150vh;
+    height: auto;
+    width: 75vh;
     color:black;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 #container div{
     height: 200px;
@@ -20,4 +21,7 @@
 }
 #div4{
     background-color: yellow;
+}
+#div5{
+    background-color: pink;
 }
