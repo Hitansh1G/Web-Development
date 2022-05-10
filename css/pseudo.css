@@ -1,0 +1,9 @@
+p{
+    background-color: yellow;
+}
+p::after{
+    content: "AFTER";
+    font-size: large;
+    text-transform: capitalize;
+    transition: 2s;
+}
