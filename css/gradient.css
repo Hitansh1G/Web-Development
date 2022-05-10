@@ -1,0 +1,7 @@
+#container{
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+    border: 2px solid black;
+    background-image:linear-gradient(rgb(63, 215, 185) , rgb(66, 187, 167) , blue) ;
+}
