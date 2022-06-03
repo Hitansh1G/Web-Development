@@ -2,7 +2,7 @@ var cur = "square";
 
 var shape = ["square", "rectangle", "circle", "oval", "triangle-up", "triangle-down", "triangle-topleft", "triangle-bottomleft", "triangle-bottomright", "triangle-right"];
 
-var color = ["red", "orange", "green", "maroon", "pink", "violet"];
+var color = ["blue", "green", "pink", "grey", "yellow", "aqua", "orange", "brown"];
 
 
 document.getElementById("shape").onclick = function () {
