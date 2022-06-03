@@ -1,3 +1,25 @@
+var toggled = false;
+
+var bodytag = document.getElementsByTagName("body")[0];;
+var small = document.getElementById("small");
+
+document.getElementById("toggle").onclick = function(){
+    if(!toggled){
+        bodytag.classList.add("bck-color-black");
+        small.style.marginLeft = "100px";
+
+        toggled = true;
+    }
+    else{
+        bodytag.classList.remove("bck-color-black");
+        small.style.marginLeft = "1px";
+        
+        toggled = false;
+    }
+}
+
+
+
 
 var cur = "square";
 
