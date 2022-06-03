@@ -1,3 +1,4 @@
+
 var cur = "square";
 
 var shape = ["square", "rectangle", "circle", "oval", "triangle-up", "triangle-down", "triangle-topleft", "triangle-bottomleft", "triangle-bottomright", "triangle-right"];
