@@ -1,5 +1,9 @@
+body{
+
+    background-color: #0F2027;
+}
 button {
-    width: 200px;
+    width: 210px;
     height: 50px;
     display: block;
     margin: 30px auto;
