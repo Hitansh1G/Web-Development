@@ -1,7 +1,17 @@
-var var1=10;
-function outer(){
-    var b=40;
-    console.log(b);
+function cart() {
+    let items = 0;
+    return {
+       addItem: function () {
+            items++;
+        },
+        getItem: function () {
+            return items;
+        }
+    };
 }
-console.log(var1);
-// console.log(b);
+
+const closure = cart();
+closure.addItem();
+closure.addItem();
+closure.addItem();
+console.log(closure.getItem());
