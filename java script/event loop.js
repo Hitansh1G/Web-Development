@@ -1,0 +1,3 @@
+/*
+event loop looks at both task queue and call stack . checks if it is empty or not .
+*/
