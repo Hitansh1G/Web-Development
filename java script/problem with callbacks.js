@@ -1,0 +1,3 @@
+/*
+when writing a alrge applications we have to deal with multiple asynchronous tasks that needs to be done one after the other and this causes a large amount of nested callbacks . this code becomes  very unreadable and difficult to maintain which causes a callback hell . to escape this problem we use promises instead of callbacks to handle asynchrnous taks
+*/
