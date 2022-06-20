@@ -1,0 +1,12 @@
+1. UI
+2. functionality -  adding a todo 
+                    deleting a todo 
+                    check task
+                    total task count 
+3. data -   task array
+            task item {id, text, done = false/true}
+4. functions -  addtodo
+                deletetodo
+                checktodo
+                show notification 
+                render list
